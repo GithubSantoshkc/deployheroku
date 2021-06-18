@@ -1,0 +1,40 @@
+:root {
+  /*   color variables */
+  --clr-primary: #6aeeb5;
+  --clr-primary-hover: #29e6a7;
+  --clr-primary-dark: #039d69;
+  --clr-gray100: #f0f7f8;
+  --clr-gray200: #cfd8dc;
+  /*   border radius */
+  --radius: 0.2rem;
+}
+
+.nav-list {
+  background: white;
+  -webkit-box-shadow: 0px 0px 10px var(--clr-gray200);
+          box-shadow: 0px 0px 10px var(--clr-gray200);
+  padding: 1rem 0;
+  border-radius: var(--radius);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+/*# sourceMappingURL=testing.css.map */
