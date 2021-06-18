@@ -16,6 +16,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 # STATICFILES = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +28,7 @@ SECRET_KEY = 'django-insecure-ubqsdffo*c84ma!81eygnp&0%o7+m^8&q@ayso4o&^%kyq=e1r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['angoonly.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','angoonly.herokuapp.com']
 
 
 # Application definition
